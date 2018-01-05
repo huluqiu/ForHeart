@@ -25,7 +25,11 @@ public class CanvasControl : MonoBehaviour
 
     public void ShowText()
     {
-        textManager.Show(XMLHelper.Instance.AnswersDictionary[1].Content, XMLHelper.Instance.AnswersDictionary[1].SubContent);
+        int index = Random.Range(1, XMLHelper.MAX + 1);
+        string content = XMLHelper.Instance.AnswersDictionary[index].Content;
+        string subcontent = XMLHelper.Instance.AnswersDictionary[index].SubContent;
+
+        textManager.Show(content, subcontent);
     }
 
     public void ResetText()

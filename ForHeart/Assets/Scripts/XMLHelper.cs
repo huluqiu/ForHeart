@@ -10,6 +10,8 @@ public class XMLHelper : MonoBehaviour
     public static XMLHelper Instance;
     public Dictionary<int, Answer> AnswersDictionary;
 
+    public static int MAX;
+
     // Use this for initialization
     void Start ()
 	{
@@ -17,6 +19,10 @@ public class XMLHelper : MonoBehaviour
 	    Instance = this;
         AnswersDictionary = new Dictionary<int, Answer>();
 	    ReadConfig(ref AnswersDictionary);
+
+	    MAX = AnswersDictionary.Count;
+        Debug.Log("Max = " + MAX);
+
 
 	}
 	
