@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 87993bb0a84391842a390fcb67ff5d32
+timeCreated: 1515116203
+licenseType: Pro
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: STZhongsong
+  fontNames:
+  - STZhongsong
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
